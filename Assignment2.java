@@ -40,9 +40,16 @@ public class Assignment2 {
 		Integer val1 = new Integer(length1);
 	    Integer val2 = new Integer(length2);
 	    System.out.println(val1.equals(val2));
+	    int Result =  val1.compareTo(val2);        
+        if(Result > 0) {  
+           System.out.println("length1 is greater than length2");  
+        } else if(Result< 0) {  
+           System.out.println("length1 is less than length2");  
+        } else {  
+           System.out.println("length1 is equal to length2");  
 	    
 	}
 
 }
-
+}
 	
